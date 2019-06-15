@@ -8,10 +8,10 @@ sudo apt upgrade
 echo 'install pip3'
 sudo apt install python3-pip
 echo 'Got pip now for pipenv'
-pip333 install --user pipenv
+pip3 install --user pipenv
 echo 'export PATH="$PATH:~/.local/bin"' >> ~/.profile
 source ~/.profile
-cd 
+cd
 mkdir code
 cd code
 mkdir webdev
@@ -19,6 +19,7 @@ cd webdev
 mkdir django
 cd django
 echo '-----------------------------------'
+echo 'Please run this command "source ~/.profile"'
 echo 'Now create a project folder and use "pipenv install django" to install django'
 echo 'Then type "pipenv shell" to start a virtual environment for your project'
 echo '-----------------------------------'
