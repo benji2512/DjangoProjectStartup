@@ -8,7 +8,7 @@ sudo apt upgrade
 echo 'install pip3'
 sudo apt install python3-pip
 echo 'Got pip now for pipenv'
-pip install --user pipenv
+pip333 install --user pipenv
 echo 'export PATH="$PATH:~/.local/bin"' >> ~/.profile
 source ~/.profile
 cd 
